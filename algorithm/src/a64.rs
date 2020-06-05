@@ -1,6 +1,6 @@
 use crate::Solution;
 
-/// 无法使用判断语句，循环语句等
+/// 无法使用判断语句，循环语句等 解决1+2+3+...+n
 impl Solution {
     ///正常解法
     pub fn sum_nums_nomal(n: i32) -> i32 {
