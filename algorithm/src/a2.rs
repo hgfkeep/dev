@@ -18,18 +18,18 @@ impl ListNode {
   }
 }
 
-impl Solution {
-    pub fn add_two_numbers(l1: Option<Box<ListNode>>, l2: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
+// impl Solution {
+//     pub fn add_two_numbers(l1: Option<Box<ListNode>>, l2: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
         
-    }
+//     }
 
-    pub fn len(l: Option<Box<ListNode>>) -> usize{
-        let mut size = 0_usize;
-        while let Some(n) = l {
-            size += 1;
-            l = n.next;
-        }
+//     pub fn len(l: Option<Box<ListNode>>) -> usize{
+//         let mut size = 0_usize;
+//         while let Some(n) = l {
+//             size += 1;
+//             l = n.next;
+//         }
 
-        size
-    }
-}
+//         size
+//     }
+// }

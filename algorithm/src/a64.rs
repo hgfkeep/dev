@@ -13,11 +13,11 @@ impl Solution {
     }
 
     /// rust unstalble 解法
-    pub fn sum_nums_unstable(n: i32) -> i32 {
-        let mut x = n;
-        let _ = (n > 0).then(|| x += Solution::sum_nums(n - 1));
-        x
-    }
+    // pub fn sum_nums_unstable(n: i32) -> i32 {
+    //     let mut x = n;
+    //     let _ = (n > 0).then(|| x += Solution::sum_nums(n - 1));
+    //     x
+    // }
 
     /// 合理的解法
     pub fn sum_nums(n: i32) -> i32 {
